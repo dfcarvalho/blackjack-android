@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    >
+    	<TextView 	android:id="@+id/numOfPlayersText"
+              		android:layout_width="wrap_content"
+              		android:layout_height="wrap_content"
+              		android:text="Number of players: (for now, only one player available)"
+              		/>
+        <EditText 	android:id="@+id/numOfPlayersEdit"
+              		android:layout_width="fill_parent"
+              		android:layout_height="wrap_content"
+              		android:text="1"
+              		/>
+        <TextView 	android:id="@+id/playerNameText"
+        			android:layout_width="wrap_content"
+              		android:layout_height="wrap_content"
+              		android:text="Your name:"
+              		/>
+        <EditText 	android:id="@+id/playersNameEdit"
+              		android:layout_width="fill_parent"
+              		android:layout_height="wrap_content"
+              		android:text=""
+              		/>
+        <TextView 	android:id="@+id/minBetText"
+        			android:layout_width="wrap_content"
+              		android:layout_height="wrap_content"
+              		android:text="Minimum bet:"
+              		/>
+        <EditText 	android:id="@+id/minBetEdit"
+              		android:layout_width="fill_parent"
+              		android:layout_height="wrap_content"
+              		android:text=""
+              		/>
+        <TextView 	android:id="@+id/maxBetText"
+        			android:layout_width="wrap_content"
+              		android:layout_height="wrap_content"
+              		android:text="Maximum bet:"
+              		/>
+        <EditText 	android:id="@+id/maxBetEdit"
+              		android:layout_width="fill_parent"
+              		android:layout_height="wrap_content"
+              		android:text=""
+              		/>
+		<TextView 	android:id="@+id/numDecksText"
+        			android:layout_width="wrap_content"
+              		android:layout_height="wrap_content"
+              		android:text="Number of Decks:"
+              		/>
+        <EditText 	android:id="@+id/numDecksEdit"
+              		android:layout_width="fill_parent"
+              		android:layout_height="wrap_content"
+              		android:text=""
+              		/>
+        <Button 	android:id="@+id/buttonOK"
+        			android:layout_width="wrap_content"
+              		android:layout_height="wrap_content"
+              		android:text="OK"
+              		/>
+</LinearLayout>

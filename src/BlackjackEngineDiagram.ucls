@@ -1,0 +1,293 @@
+<class-diagram version="1.0.2" icons="true" automaticImage="JPEG" always-add-relationships="false" 
+  generalizations="true" realizations="true" associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="2" corner="BOTTOM_RIGHT" language="java" name="plp.project02.engine.Image" project="Blackjack" 
+    file="/Blackjack/src/plp/project02/engine/Image.java" binary="false">    
+    <position x="88" y="25" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="4" corner="BOTTOM_RIGHT" language="java" name="plp.project02.engine.VideoManager" project="Blackjack" 
+    file="/Blackjack/src/plp/project02/engine/VideoManager.java" binary="false">    
+    <position x="123" y="488" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="5" corner="BOTTOM_RIGHT" language="java" name="plp.project02.engine.Engine" project="Blackjack" 
+    file="/Blackjack/src/plp/project02/engine/Engine.java" binary="false">    
+    <position x="604" y="-13" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="6" corner="BOTTOM_RIGHT" language="java" name="plp.project02.engine.GameThread" project="Blackjack" 
+    file="/Blackjack/src/plp/project02/engine/GameThread.java" binary="false">    
+    <position x="913" y="-90" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="7" corner="BOTTOM_RIGHT" language="java" name="plp.project02.engine.InputManager.TouchEvent" 
+    project="Blackjack" file="/Blackjack/src/plp/project02/engine/InputManager.java" binary="false">    
+    <position x="844" y="586" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="8" corner="BOTTOM_RIGHT" language="java" name="plp.project02.engine.InputManager" project="Blackjack" 
+    file="/Blackjack/src/plp/project02/engine/InputManager.java" binary="false">    
+    <position x="903" y="241" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="9" corner="BOTTOM_RIGHT" language="java" name="plp.project02.engine.InputManager.KeyEvent" 
+    project="Blackjack" file="/Blackjack/src/plp/project02/engine/InputManager.java" binary="false">    
+    <position x="1012" y="602" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="11" corner="BOTTOM_RIGHT" language="java" name="plp.project02.engine.Sprite" project="Blackjack" 
+    file="/Blackjack/src/plp/project02/engine/Sprite.java" binary="false">    
+    <position x="530" y="397" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="12" corner="BOTTOM_RIGHT" language="java" name="plp.project02.engine.Scene" project="Blackjack" 
+    file="/Blackjack/src/plp/project02/engine/Scene.java" binary="false">    
+    <position x="336" y="-14" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <nesting>    
+    <bendpoint x="1023" y="500"/>    
+    <end type="SOURCE" nodeId="8"/>    
+    <end type="TARGET" nodeId="9"/>  
+  </nesting>  
+  <association>    
+    <end type="SOURCE" nodeId="8" navigable="false">      
+      <attribute name="touchEventsBuffer"/>      
+      <multiplicity minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" nodeId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting>    
+    <bendpoint x="752" y="426"/>    
+    <end type="SOURCE" nodeId="8"/>    
+    <end type="TARGET" nodeId="7"/>  
+  </nesting>  
+  <association>    
+    <end type="SOURCE" nodeId="4" navigable="false">      
+      <attribute name="images"/>      
+      <multiplicity minimum="0" maximum="2147483647">        
+        <position x="178" y="176" width="16" height="13"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" nodeId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association>    
+    <bendpoint x="765" y="-104"/>    
+    <end type="SOURCE" nodeId="6" navigable="false">      
+      <attribute name="engine">        
+        <position x="705" y="-106" width="36" height="13"/>      
+      </attribute>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" nodeId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association>    
+    <end type="SOURCE" nodeId="4" navigable="false">      
+      <attribute name="singleton"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" nodeId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association>    
+    <bendpoint x="463" y="48"/>    
+    <end type="SOURCE" nodeId="12" navigable="false">      
+      <attribute name="engine">        
+        <position x="654" y="144" width="38" height="13"/>      
+      </attribute>      
+      <multiplicity minimum="0" maximum="1">        
+        <position x="660" y="157" width="18" height="13"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" nodeId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association>    
+    <end type="SOURCE" nodeId="5" navigable="false">      
+      <attribute name="scenes">        
+        <position x="436" y="-48" width="37" height="13"/>      
+      </attribute>      
+      <multiplicity minimum="0" maximum="2147483647">        
+        <position x="458" y="-35" width="16" height="13"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" nodeId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association>    
+    <bendpoint x="325" y="129"/>    
+    <end type="SOURCE" nodeId="11" navigable="false">      
+      <attribute name="scene"/>      
+      <multiplicity minimum="0" maximum="1">        
+        <position x="307" y="97" width="18" height="13"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" nodeId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association>    
+    <bendpoint x="271" y="135"/>    
+    <end type="SOURCE" nodeId="12" navigable="false">      
+      <attribute name="sprites"/>      
+      <multiplicity minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" nodeId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association>    
+    <end type="SOURCE" nodeId="8" navigable="false">      
+      <attribute name="keyEvents"/>      
+      <multiplicity minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" nodeId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association>    
+    <bendpoint x="748" y="61"/>    
+    <end type="SOURCE" nodeId="8" navigable="false">      
+      <attribute name="engine"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" nodeId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association>    
+    <end type="SOURCE" nodeId="12" navigable="false">      
+      <attribute name="images"/>      
+      <multiplicity minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" nodeId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association>    
+    <bendpoint x="827" y="24"/>    
+    <end type="SOURCE" nodeId="5" navigable="false">      
+      <attribute name="inputManager"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" nodeId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association>    
+    <bendpoint x="922" y="470"/>    
+    <end type="SOURCE" nodeId="8" navigable="false">      
+      <attribute name="touchEvents"/>      
+      <multiplicity minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" nodeId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association>    
+    <bendpoint x="706" y="168"/>    
+    <bendpoint x="735" y="128"/>    
+    <end type="SOURCE" nodeId="5" navigable="false">      
+      <attribute name="singleton"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" nodeId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association>    
+    <bendpoint x="413" y="104"/>    
+    <end type="SOURCE" nodeId="5" navigable="false">      
+      <attribute name="currentScene"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" nodeId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association>    
+    <end type="SOURCE" nodeId="5" navigable="false">      
+      <attribute name="gameThread"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" nodeId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association>    
+    <end type="SOURCE" nodeId="11" navigable="false">      
+      <attribute name="image"/>      
+      <multiplicity minimum="0" maximum="1">        
+        <position x="193" y="95" width="18" height="13"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" nodeId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association>    
+    <bendpoint x="1078" y="481"/>    
+    <end type="SOURCE" nodeId="8" navigable="false">      
+      <attribute name="keyEventsBuffer">        
+        <position x="1018" y="494" width="81" height="13"/>      
+      </attribute>      
+      <multiplicity minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" nodeId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association>    
+    <bendpoint x="359" y="331"/>    
+    <end type="SOURCE" nodeId="4" navigable="false">      
+      <attribute name="engine"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" nodeId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association>    
+    <bendpoint x="1036" y="401"/>    
+    <bendpoint x="1053" y="393"/>    
+    <bendpoint x="1056" y="370"/>    
+    <end type="SOURCE" nodeId="8" navigable="false">      
+      <attribute name="singleton"/>      
+      <multiplicity minimum="0" maximum="1">        
+        <position x="1054" y="408" width="18" height="13"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" nodeId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association>    
+    <end type="SOURCE" nodeId="5" navigable="false">      
+      <attribute name="videoManager"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" nodeId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" package="true" initial-value="false" signature="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true"/>    
+    <operations public="true" package="true" protected="true" private="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
